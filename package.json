@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "dev" : "ts-node src/server.ts"
+    "dev": "ts-node src/server.ts"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +14,7 @@
     "express": "^4.18.2"
   },
   "devDependencies": {
+    "@types/express": "^4.17.17",
     "@types/node": "github:types/express",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
